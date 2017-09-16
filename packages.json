@@ -1395,5 +1395,34 @@
     ],
     "repo": "https://github.com/paf31/purescript-yargs.git",
     "version": "v3.0.1"
+  },
+  "precise": {
+    "dependencies": [
+      "arrays",
+      "globals",
+      "integers",
+      "generics",
+      "strings"
+      ],
+    "repo": "https://github.com/purescript-contrib/purescript-precise.git",
+    "version": "v2.0.0"
+  },
+  "markdown": {
+    "dependencies": [
+      "const",
+      "functors",
+      "lists",
+      "parsing",
+      "partial",
+      "precise",
+      "prelude",
+      "sets",
+      "strings",
+      "strongcheck",
+      "validation",
+      "datetime"
+      ],
+    "repo": "https://github.com/slamdata/purescript-markdown.git",
+    "version": "v11.0.0"
   }
 }
